@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:Hospitality & Cocktail Hour: Wally & Emily
+BEGIN:VEVENT
+DTSTART:20240817T220000Z
+DTEND:20240818T000000Z
+DTSTAMP:20240223T062953Z
+SUMMARY:Hospitality & Cocktail Hour: Wally & Emily
+DESCRIPTION:Enjoy a variety of refreshments and buffet style food entrees prior to reception. Mingle and catch-up with friends and family. Food will be served at 7:00pm.\n\nGo to wallyandemily.com/seating-chart or locate the seating chart board (at the entrance of the Georgian ballroom) for dinner table seating arrangements. Seats are assigned for all guests who have RSVP-ed. 
+LOCATION:The Inn At New Hyde Park, 214 Jericho Turnpike, New Hyde Park, NY 11040
+UID:69270
+END:VEVENT
+END:VCALENDAR

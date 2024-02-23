@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:Wedding Reception: Wally & Emily
+BEGIN:VEVENT
+DTSTART:20240818T000000Z
+DTEND:20240818T040000Z
+DTSTAMP:20240223T064504Z
+SUMMARY:Wedding Reception: Wally & Emily
+DESCRIPTION:The wedding reception will begin after cocktail hour at 8:00pm. A variety of activities are available for guests to enjoy. Participation is optional. \n\n• Wedding Game (comes with wedding favors)\n• Photobooth Station\n• Wedding Letter Box Station (guestbook signing)\n• Memorial Station to commerate both Wally's & Emily's mothers\n• Dinner\n• First Dances & Cake Cutting\n• Dancing\n• Dessert Station (snacks to take as guests leave)\n\n* Guests are allowed to take the florals as souvenirs. Do not take any of the other decor such as the candles, vases, etc. 
+LOCATION:The Inn At New Hyde Park, 214 Jericho Turnpike, New Hyde Park, NY 11040
+UID:54729
+END:VEVENT
+END:VCALENDAR

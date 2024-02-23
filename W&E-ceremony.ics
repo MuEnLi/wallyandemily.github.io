@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:Wedding Ceremony: Wally & Emily
+BEGIN:VEVENT
+DTSTART:20240817T183000Z
+DTEND:20240817T190000Z
+DTSTAMP:20240223T061617Z
+SUMMARY:Wedding Ceremony: Wally & Emily
+DESCRIPTION:Gather to witness Wally & Emily join together in marriage at the Church of the Holy Spirit. The wedding is a Celebration-of-Rites Catholic ceremony.\n\n• Attire: Formal wear\n• All guests must arrive at least 30 minutes early. \n• Seating at the very front is reserved for the wedding party and family. \n• There are no assigned seating but if you prefer to be traditional- the bride side is on the left and the groom is on the right.\n• The use of electronics is not allowed during the ceremony.\n• Guest photography and videography are only permitted at the priest's discretion.
+LOCATION:Church of the Holy Spirit, 16 S 6th St, New Hyde Park, NY 11040
+UID:33359
+END:VEVENT
+END:VCALENDAR
