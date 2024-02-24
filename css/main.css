@@ -862,6 +862,9 @@ ul.instafeed-list li{
     h5, .h5 {
         font-size: 1rem;
     }
+    p {
+        font-size: 1rem;
+    }
     .modal-content {
         width: 80%;
     }
