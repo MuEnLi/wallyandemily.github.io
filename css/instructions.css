@@ -1,0 +1,119 @@
+/* 
+
+Created by : MuEnLi
+
+*/
+
+/* Game Instructions CSS */
+
+  * {
+    box-sizing: border-box;
+  }
+
+  div.centerBlock{
+    padding: 0;
+    margin: auto;
+    text-align: center;
+  }
+
+  div.rowcontent{
+    max-width: 80%;
+    margin: auto;
+    padding-bottom: 30px
+  }
+
+  div.fit-content {
+    max-width: 100%;
+    text-align: center;
+    margin: auto;
+  }
+
+  h1 {
+    font-family: "Jupiter-Bold", Playfair Display;
+    font-size: 4rem;
+    color: rgb(218, 165, 32);
+    font-weight: 200;
+    text-align: center;
+    padding-bottom: 25px;
+    margin-top:0px;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  h2 {
+    padding-top:50px;
+    margin-bottom: 15px;
+    font-weight: 300;
+    font-size: 1.2rem;
+    text-align: center;
+    font-family: 'Source Sans Pro','Verdana','Helvetica', sans-serif;
+    letter-spacing: .5em;
+    margin-top: 0px;
+    line-height: 1.6;
+  }
+
+  p {
+    font-family: 'Source Sans Pro','Verdana','Helvetica', sans-serif;
+    font-weight: normal;
+    font-size: 1.375rem;
+    margin-bottom: 1rem;
+    text-align: left;
+  }
+
+  footer p {
+    color: rgb(218, 165, 32) !important;
+    font-size: 100%;
+    font-weight: 400;
+    display: inline-block;
+  }
+
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    background-color: #fffcf5;
+  }
+
+  footer {
+    margin-top: -5px;
+    background-color: #fffcf5;
+    padding: 20px;
+    text-align: center;
+    color: black;
+  }
+
+  .scroll-to-top {
+    position: fixed;
+    width: 2.65rem;
+    height: 2.65rem;
+    text-align: center;
+    right: 2.875rem;
+    bottom: 3.6875rem;
+    z-index: 100;
+  }
+
+  .bg-white-svg {
+    fill: #fffcf5;
+  }
+
+  /* Responsive columns */
+  @media screen and (max-width: 1200px) {
+    h1 {
+      font-size: 3rem;
+      line-height: 1.2;
+      padding-bottom: 0px;
+    }
+
+    h2 {
+      font-size: 1rem;
+    }
+  }
+
+  @media screen and (max-width: 500px) {
+    h1 {
+      font-size: 2rem;
+    }
+
+    p{
+      font-size: 1.2rem;
+    }
+  }
