@@ -70,7 +70,7 @@ Created by : MuEnLi
   body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0px;
-    background-color: #fffcf5;
+    background-color: #ffffff;
   }
 
   footer {
@@ -110,7 +110,7 @@ Created by : MuEnLi
 
   @media screen and (max-width: 500px) {
     h1 {
-      font-size: 1.8rem;
+      font-size: 1.7rem;
     }
 
     p{
