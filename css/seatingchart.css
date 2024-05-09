@@ -193,11 +193,28 @@ Created by : MuEnLi
 /* Responsive columns */
 @media screen and (max-width: 500px) {
   h1 {
-    font-size: 4rem;
+    font-size: 3rem;
     line-height: 1.2;
+    padding-bottom: 0px;
+  }
+
+  h2 {
+    font-size: 0.8rem;
+  }
+
+  input[type=text] {
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+  }
+
+  .column {
+    padding-bottom: 0px;
   }
 
   .row {
     margin: 0px!important;
+    padding-bottom: 0px;
   }
+
+
 }
