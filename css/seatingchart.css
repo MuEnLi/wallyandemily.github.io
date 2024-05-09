@@ -1,0 +1,190 @@
+/* 
+
+Created by : MuEnLi
+
+*/
+
+/* Seating Chart CSS */
+
+  * {
+    box-sizing: border-box;
+  }
+
+  .hidden { 
+    display: none; 
+  }
+
+  li {
+    list-style: none;
+    padding: 5px;
+  }
+
+  ul {
+    padding: 0;
+    list-style-type: none;
+  }
+
+  input[type=text] {
+    width: 30%;
+    height: 50%;
+    display: block;
+    margin:auto;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+
+  h1 {
+    font-family: "Jupiter-Bold", Playfair Display;
+    font-size: 5.5rem;
+    font-weight: 200;
+    text-align: center;
+    padding-bottom: 25px;
+    margin-top:0px;
+  }
+
+  h2 {
+    padding-top:50px;
+    margin-bottom: 15px;
+    font-weight: 300;
+    font-size: 1.2rem;
+    text-align: center;
+    font-family: 'Source Sans Pro','Verdana','Helvetica', sans-serif;
+    letter-spacing: .5em;
+    margin-top: 0px;
+  }
+
+  h3 {
+    font-weight: 500;
+    font-size: 2rem;
+    text-align: center;
+    font-family: Playfair Display;
+    margin-top: 5px;
+  }
+
+  p {
+    font-family: 'Source Sans Pro','Verdana','Helvetica', sans-serif;
+    font-weight: 300;
+    font-size: 1.375rem;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+
+  footer p {
+    color: #bfbbb8 !important;
+    font-size: 100%;
+    font-weight: 400;
+    display: inline-block;
+  }
+
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    background-color: #ffff;
+  }
+
+  a {
+    pointer-events: none;
+    cursor: default;
+    text-decoration: none;
+    color: #7c7e7f;
+  }
+
+  footer {
+    margin-top: -5px;
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    color: black;
+  }
+
+  /* Float three columns side by side */
+  .column {
+    float: left;
+    width: 33.3%;
+    padding: 0 30px;
+    padding-bottom: 60px;
+    padding-top: 40px;
+  }
+
+  /* Remove extra left and right margins, due to padding */
+  .row {
+    margin: 0 100px;
+  }
+
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  /* Style the counter cards */
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 10%;
+    text-align: center;
+    background-color: #ffff;
+    transition: all 0.25s ease;
+    animation: populate 0.5s ease-out normal backwards;
+    border-radius: 0.625rem;
+  }
+
+  @keyframes populate {
+    0% {
+      transform: scale(0);
+    }
+  }
+
+.scroll-to-top {
+  position: fixed;
+  width: 2.65rem;
+  height: 2.65rem;
+  text-align: center;
+  right: 2.875rem;
+  bottom: 3.6875rem;
+  z-index: 100;
+}
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 4.4rem;
+  right: 3.35rem;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: rgb(218, 165, 32);
+  cursor: pointer;
+  padding: 14px;
+  border-radius: 10px;
+}
+
+.bg-white-svg {
+  fill: #ffffff;
+}
+
+#myInput {
+  height:30px;
+  border-radius: 10px;
+  border-width: 0px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border: 0px;
+  background-image: url('/assets/svg/magnifying-glass.svg');
+  background-position-x:20px;
+  background-position-y: center;
+  background-repeat: no-repeat;
+  background-size: 20px;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 1200px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 30px;
+  }
+
+  #myInput {
+    width: 80%;
+  }
+}
