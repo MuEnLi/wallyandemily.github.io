@@ -51,6 +51,7 @@ Created by : MuEnLi
     font-family: 'Source Sans Pro','Verdana','Helvetica', sans-serif;
     letter-spacing: .5em;
     margin-top: 0px;
+    line-height: 1.6;
   }
 
   h3 {
@@ -186,5 +187,17 @@ Created by : MuEnLi
 
   #myInput {
     width: 80%;
+  }
+}
+
+/* Responsive columns */
+@media screen and (max-width: 500px) {
+  h1 {
+    font-size: 4rem;
+    line-height: 1.2;
+  }
+
+  .row {
+    margin: 0px!important;
   }
 }
